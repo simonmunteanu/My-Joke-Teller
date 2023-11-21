@@ -1,0 +1,40 @@
+body {
+    min-height: 100vh;
+    background-color: #45BADD;
+}
+
+.container {
+    background: url("robot.gif");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background-position: bottom;
+    background-size: contain;
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+    padding: 140px 0;
+}
+
+button {
+    cursor: pointer;
+    width: 200px;
+    background: #FF3282;
+    border: none;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.speech-bubble {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    font-size: 18px;
+    border-radius:10px;
+    margin: -130px 0;
+}
